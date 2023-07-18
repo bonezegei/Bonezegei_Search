@@ -8,7 +8,7 @@
 
 #ifndef _BONEZEGEI_SEARCH_H_
 #define _BONEZEGEI_SEARCH_H_
-#define SRC_MEM 64
+#define SRC_MEM 256
 
 class Bonezegei_Search {
 public:
@@ -21,7 +21,6 @@ public:
   char *getString(char arr[],const char *keyword);
   char *getString(char arr[],const char *keyword, char endChar);
 
-private:
   int src2cnt;
   char src2data[SRC_MEM];
 
