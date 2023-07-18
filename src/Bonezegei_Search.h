@@ -8,7 +8,7 @@
 
 #ifndef _BONEZEGEI_SEARCH_H_
 #define _BONEZEGEI_SEARCH_H_
-#define SRC_MEM 256
+#define SRC_MEM 1024
 
 class Bonezegei_Search {
 public:
