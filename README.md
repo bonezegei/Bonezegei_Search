@@ -2,10 +2,6 @@
 ## Simple Array keyword Search 
 [![P](https://img.shields.io/github/v/release/bonezegei/Bonezegei_Search)](https://github.com/bonezegei/Bonezegei_Search)
 
-Search the keyword in an arrray and returns its value. The keyword must be unique in the array
-if the keyword exist multiple times in the array the function will only retun the value of the first keyword
-
-the Library returns the following data types
-(int, float, char*)
+Embedded systems often need to communicate with other devices and parse data from them. However, parsing complex data structures can be challenging and inefficient for embedded systems with limited resources. Bonezegei Search is a simple and lightweight library for Arduino that allows extracting key values from single strings using a delimiter and a separator. For example, a string like "motor1=100, motor2=50, sensor1=25.4" can be parsed by Bonezegei Search using "," as the delimiter and "=" as the separator. The library returns the value associated with a given key as a string, which can then be converted to the appropriate data type. Bonezegei Search can be useful for applications such as robotics, IoT, and sensor networks, where embedded systems need to process data from other devices quickly and reliably.
 
 
